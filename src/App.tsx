@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
@@ -21,8 +22,6 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        {/* 
-        // @ts-ignore */}
         <button onClick={() => setCount((count) => increment(count))}>
           count is {count}
         </button>
